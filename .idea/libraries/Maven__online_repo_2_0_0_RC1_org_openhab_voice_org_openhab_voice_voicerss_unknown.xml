@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: online-repo.2.0.0.RC1.org.openhab.voice:org.openhab.voice.voicerss:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/online-repo/2/0/0/RC1/org/openhab/voice/org.openhab.voice.voicerss/unknown/org.openhab.voice.voicerss-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/online-repo/2/0/0/RC1/org/openhab/voice/org.openhab.voice.voicerss/unknown/org.openhab.voice.voicerss-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/online-repo/2/0/0/RC1/org/openhab/voice/org.openhab.voice.voicerss/unknown/org.openhab.voice.voicerss-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

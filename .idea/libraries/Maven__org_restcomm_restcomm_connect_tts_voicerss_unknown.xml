@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.restcomm:restcomm-connect.tts.voicerss:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/restcomm/restcomm-connect.tts.voicerss/unknown/restcomm-connect.tts.voicerss-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/restcomm/restcomm-connect.tts.voicerss/unknown/restcomm-connect.tts.voicerss-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/restcomm/restcomm-connect.tts.voicerss/unknown/restcomm-connect.tts.voicerss-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

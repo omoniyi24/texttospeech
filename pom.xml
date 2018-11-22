@@ -7,6 +7,87 @@
     <groupId>com.personal.texttospeech</groupId>
     <artifactId>texttospeech</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.0.5.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <dependencies>
+
+
+
+        <!-- https://mvnrepository.com/artifact/org.restcomm/restcomm-connect.tts.voicerss -->
+        <dependency>
+            <groupId>org.restcomm</groupId>
+            <artifactId>restcomm-connect.tts.voicerss</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/marytts/marytts-client -->
+        <dependency>
+            <groupId>marytts</groupId>
+            <artifactId>marytts-client</artifactId>
+        </dependency>
+
+
+
+
+        <!-- https://mvnrepository.com/artifact/de.dfki.mary/voice-cmu-slt-hsmm -->
+        <dependency>
+            <groupId>de.dfki.mary</groupId>
+            <artifactId>voice-cmu-slt-hsmm</artifactId>
+            <version>5.2</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/de.dfki.mary/marytts-lang-en -->
+        <dependency>
+            <groupId>de.dfki.mary</groupId>
+            <artifactId>marytts-lang-en</artifactId>
+            <version>5.2</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/de.dfki.mary/marytts-builder -->
+        <dependency>
+            <groupId>de.dfki.mary</groupId>
+            <artifactId>marytts-builder</artifactId>
+            <version>5.2</version>
+        </dependency>
+
+
+
+        <!-- https://mvnrepository.com/artifact/online-repo.2.0.0.RC1.org.openhab.voice/org.openhab.voice.voicerss -->
+        <dependency>
+            <groupId>online-repo.2.0.0.RC1.org.openhab.voice</groupId>
+            <artifactId>org.openhab.voice.voicerss</artifactId>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.openhab.voice/org.openhab.voice.voicerss -->
+        <dependency>
+            <groupId>org.openhab.voice</groupId>
+            <artifactId>org.openhab.voice.voicerss</artifactId>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/net.sf.sociaal/freetts -->
+        <dependency>
+            <groupId>net.sf.sociaal</groupId>
+            <artifactId>freetts</artifactId>
+            <version>1.2.2</version>
+        </dependency>
+
+
+
+
+    </dependencies>
 
 
 </project>
